@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="countdown-card">
+      <section class="panel">
+        <h1 class="title">Reference Data</h1>
+        <label class="label" for="date-input">Selecione uma data</label>
+        <input type="date" id="date-input" name="date-input" />
+      </section>
+
+      <section class="panel">
+        <h1 class="title">Countdown</h1>
+        <p class="description" id="output" aria-live="polite">
+          0 days, 0 hours, 0 minutes, 0 seconds
+        </p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
